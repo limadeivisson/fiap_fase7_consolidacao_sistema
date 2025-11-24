@@ -1,193 +1,180 @@
-FIAP - Faculdade de Informática e Administração Paulista
-<p align="center"> <a href="https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" width="40%"></a> </p> <br>
-FarmTech Solutions
-Fase 7 – Capítulo 1
+# FIAP - Faculdade de Informática e Administração Paulista  
 
-A Consolidação de um Sistema Integrado para o Agronegócio
+<p align="center">
+  <a href="https://www.fiap.com.br/">
+    <img src="assets/logo-fiap.png" alt="FIAP" width="40%">
+  </a>
+</p>
+
+# FarmTech Solutions  
+## Fase 7 – Capítulo 1  
+### **A Consolidação de um Sistema Integrado para o Agronegócio**
 
 ---
 
-## 👨‍🎓 Integrantes do Grupo 34:
-- Deivisson Gonçalves Lima – RM565095 – [deivisson.engtele@gmail.com](mailto:deivisson.engtele@gmail.com)
-- Omar Calil Abrão Mustafá Assem – RM561375 – [ocama12@gmail.com](mailto:ocama12@gmail.com)
-- Paulo Henrique de Sousa – RM564262 – [pauloo.sousa16@outlook.com](mailto:pauloo.sousa16@outlook.com)
-- Renan Danilo dos Santos Pereira – RM566175 – [renansantos4978@gmail.com](mailto:renansantos4978@gmail.com)
+## 👨‍🎓 Integrantes do Grupo 34
+- **Deivisson Gonçalves Lima** – RM565095 – deivisson.engtele@gmail.com
+- **Omar Calil Abrão Mustafá Assem** – RM561375 – ocama12@gmail.com
+- **Paulo Henrique de Sousa** – RM564262 – pauloo.sousa16@outlook.com
+- **Renan Danilo dos Santos Pereira** – RM566175 – renansantos4978@gmail.com
 
-## 👩‍🏫 Professores:
-### Tutor(a):
+---
+
+## 👩‍🏫 Professores
+### **Tutor(a):**
 - Lucas Gomes Moreira  
-### Coordenador(a):
+
+### **Coordenador(a):**
 - André Godoi Chiovato  
 
 ---
 
 ## 📜 Introdução
 
-A Fase 7 marca o momento em que integramos todos os módulos desenvolvidos ao longo das Fases 1 a 6, consolidando um único sistema inteligente, organizado e executável por meio de um único dashboard Streamlit ou por linha de comando.
+A Fase 7 representa o ponto de unificação de **todas as fases anteriores**, consolidando um **sistema inteligente completo** para o agronegócio, implementado em Python, Streamlit, IoT, Visão Computacional, Cloud e Arquitetura de Software.
 
-O objetivo final é criar um sistema de gestão agrícola completo, reunindo:
+O objetivo é integrar:
 
-- Cálculos de manejo e área
-
-- Banco de dados estruturado
-
-- IoT e ESP32
-
-- Machine Learning
-
-- Cloud & Segurança
-
-- Visão Computacional com YOLO
-
-- Mensageria AWS SNS para alertas
+- Cálculos de manejo  
+- Banco de dados  
+- Sensores IoT (ESP32)  
+- Machine Learning  
+- Visão computacional YOLO  
+- Infraestrutura em Cloud  
+- Alertas via AWS SNS  
+- Um dashboard único para navegação entre fases  
+- Execução por CLI (linha de comando)
 
 ---
 
-## 🔄 Resumo das Fases 1 a 6
-### 🌱 Fase 1 – Base de Dados Inicial e Manejo Agrícola
+# 🔄 Resumo Geral das Fases (1 a 6)
 
-- Construção dos primeiros cálculos de área de plantio
-
-- Organização de insumos
-
-- Integração inicial dos dados que alimentariam todo o ecossistema
-
-- Cálculos implementados no dashboard consolidado
+## 🌱 **Fase 1 – Manejo e Base Agrícola**
+- Cálculo de área plantada  
+- Dimensionamento agrícola  
+- Conceitos que alimentam as fases seguintes  
 
 ---
 
-### 🗂️ Fase 2 – Banco de Dados Estruturado (MER/DER)
-
-- Modelagem relacional completa
-
-- Tabelas de talhões, sensores, manejo
-
-- Preparação para integração com os sensores da Fase 3
+## 🗂️ **Fase 2 – Banco de Dados (MER / DER)**
+- Modelagem relacional  
+- Estrutura para sensores, talhões, manejo  
+- Base conceitual utilizada na Fase 7  
 
 ---
 
-### 🌦️ Fase 3 – IoT e Automação Inteligente (ESP32)
-
-- Integração com sensores (DHT22, LDR, pH simulado)
-
-- Lógica de irrigação automática
-
-- CRUD via Python + banco de dados
-
-- Simulação replicada na dashboard
+## 🌦️ **Fase 3 – IoT (ESP32 + Sensores)**
+- DHT22 (temperatura/umidade)  
+- LDR e sensor de pH simulado  
+- Lógica de irrigação inteligente  
+- Alerta automático via SNS integrado na Fase 7  
 
 ---
 
-### 📊 Fase 4 – Dashboard Interativo com Data Science
-
-- Modelos preditivos Scikit-Learn
-
-- Interface Streamlit para análise
-
-- Visualizações e insights para tomada de decisão
-
-- Reaproveitado e aprimorado na Fase 7
+## 📊 **Fase 4 – Dashboard com Data Science**
+- Modelos de Machine Learning  
+- Interface Streamlit  
+- Gráficos e insights  
 
 ---
 
-### ☁️ Fase 5 – Cloud Computing & Segurança
-
-- Infra AWS
-
-- Configuração de boas práticas ISO 27001/27002
-
-- Integração com serviços AWS
-
-- Nesta fase implementamos o serviço SNS utilizado agora para os alertas
+## ☁️ **Fase 5 – Cloud & Segurança**
+- Arquitetura AWS  
+- Governança e IAM  
+- Integração com SNS (mensageria)  
 
 ---
 
-### 👁️ Fase 6 – Visão Computacional (YOLO)
-
-- Sistema para detectar pragas/doenças via imagens
-
-- Pipeline de inferência
-
-- Na Fase 7 usamos simulação visual para demonstração da arquitetura
+## 👁️ **Fase 6 – Visão Computacional (YOLO)**
+- Classificação / detecção de pragas e doenças  
+- Pipeline de inferência  
+- Integrado ao dashboard da Fase 7  
 
 ---
 
-### 🧩 Fase 7 – Consolidação de um Sistema Completo
+# 🧩 Fase 7 – Consolidação do Sistema
 
-Nesta etapa final, criamos:
+Nesta fase integramos todas as soluções anteriores em um **único ecossistema funcional**.
 
-✔️ 1. Um dashboard final único (Streamlit)
+### ✔️ **1. Dashboard Streamlit Completo**
+Com navegação lateral para:
 
-- Com navegação lateral para acessar cada fase, incluindo:
+- Manejo (Fase 1)  
+- Banco de Dados (Fase 2)  
+- IoT e Sensores (Fase 3)  
+- Machine Learning (Fase 4)  
+- Cloud (Fase 5)  
+- Visão Computacional (Fase 6)  
 
-- Cálculo de plantio
+---
 
-- Banco relacional (mock conceitual)
+### ✔️ **2. Execução por CLI (`cli.py`)**
+Permite:
 
-- IoT e sensores com alerta
+- Teste de sensores  
+- Disparo manual de alertas  
+- Execução de cálculos da Fase 1  
+- Visualizações e simulações rápidas  
 
-- Machine Learning
+---
 
-- Cloud
+### ✔️ **3. AWS SNS – Sistema de Alertas**
+Implementado no arquivo `aws_alerts.py`.
 
-- Visão computacional
+- Envio de SMS/E-mail  
+- Alertas automáticos quando a umidade está baixa  
+- Função integrada ao dashboard e à CLI  
 
-✔️ 2. Execução por linha de comando
+---
 
-- Arquivo cli.py permitindo:
+# 📁 Estrutura Final do Projeto
 
-- Teste de sensores
-
-- Disparo manual de alertas
-
-- Simulação da Fase 1
-
-✔️ 3. Serviço de Mensageria AWS SNS – ALERTAS
-
-- .env configurado
-
-- Chave IAM com acesso programático
-
-- SNS Topic configurado
-
-- Função send_alert() integrada no dashboard e na CLI
-
-✔️ 4. Estrutura de Pastas Unificada
+```text
 fase7/
-├─ main.py
-├─ cli.py
-├─ aws_alerts.py
-├─ requirements.txt
-├─ README.md
-├─ assets/
-│   ├─ imagem_teste_fase6.png
-│   └─ logo-fiap.png
-├─ services/
-│   ├─ fase1_manejo.py
-│   ├─ fase2_db.py
-│   ├─ fase3_iot.py
-│   ├─ fase4_dashboard.py
-│   ├─ fase5_cloud.py
-│   └─ fase6_vision.py
-└─ utils/
-    └─ layout.py
+│
+├── main.py
+├── cli.py
+├── aws_alerts.py
+├── requirements.txt
+├── README.md
+│
+├── assets/
+│   ├── imagem_teste_fase6.png
+│   └── logo-fiap.png
+│
+├── services/
+│   ├── fase1_manejo.py
+│   ├── fase2_db.py
+│   ├── fase3_iot.py
+│   ├── fase4_dashboard.py
+│   ├── fase5_cloud.py
+│   └── fase6_vision.py
+│
+└── utils/
+    └── layout.py
+```
 
-✉️ Envio de Alertas – AWS SNS
+---
 
-O dashboard possui:
+# ✉️ Envio de Alertas – AWS SNS
 
-- Botão “Enviar alerta de teste”
+Integração com:
 
-- Alerta automático para baixa umidade na Fase 3
+- `boto3`  
+- IAM com acesso programático  
+- SNS Topic configurado  
+- Alerta manual e automático (umidade)
 
-- Integração via boto3
+---
 
-🎥 Vídeo de Apresentação (≤ 10 minutos)
+# 🎥 Vídeo de Apresentação (≤ 10 minutos)
 
-👉 Link do vídeo (não listado):
-🔗 [INSERIR LINK AQUI]
+📌 **Link do vídeo (não listado):**  
+🔗 *INSERIR AQUI APÓS A GRAVAÇÃO*
 
-📜 Licença
+---
 
-Projeto acadêmico desenvolvido para o curso de Inteligência Artificial – FIAP.
+# 📜 Licença
+
+Projeto acadêmico desenvolvido para o curso de **Inteligência Artificial – FIAP**.  
 Todos os direitos reservados aos autores.
