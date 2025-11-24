@@ -139,6 +139,7 @@ fase7/
 ├── README.md
 │
 ├── assets/
+│   ├── Arquitetura_Cons.png
 │   ├── imagem_teste_fase6.png
 │   └── logo-fiap.png
 │
@@ -170,7 +171,7 @@ Integração com:
 # 🎥 Vídeo de Apresentação (≤ 10 minutos)
 
 📌 **Link do vídeo (não listado):**  
-🔗 *INSERIR AQUI APÓS A GRAVAÇÃO*
+🔗 *https://youtu.be/wfoYVzE0aHQ*
 
 ---
 
